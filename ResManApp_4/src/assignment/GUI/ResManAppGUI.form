@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="assignment.GUI.ResManAppGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="745" height="409"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="fad80" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Welcome to Restaurant Management Application"/>
+        </properties>
+      </component>
+      <vspacer id="bd944">
+        <constraints>
+          <grid row="0" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="27ad6" class="javax.swing.JMenuBar" binding="mainMenu" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="75c40" class="javax.swing.JMenu" binding="add" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Add"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c8d8" class="javax.swing.JMenuItem" binding="addCustomer">
+                <constraints/>
+                <properties>
+                  <text value="Add Customer"/>
+                </properties>
+              </component>
+              <component id="c473c" class="javax.swing.JMenuItem" binding="addBooking">
+                <constraints/>
+                <properties>
+                  <text value="Add Booking"/>
+                </properties>
+              </component>
+              <component id="d1274" class="javax.swing.JMenuItem" binding="addOrder">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Add Order"/>
+                </properties>
+              </component>
+              <component id="17d85" class="javax.swing.JMenuItem" binding="addOrderOfBooking">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Add Order of Booking"/>
+                </properties>
+              </component>
+              <component id="7ea1c" class="javax.swing.JMenuItem" binding="addStaff">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <font/>
+                  <hideActionText value="false"/>
+                  <text value="Add Staff"/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e7673" class="javax.swing.JMenu" binding="delete" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Delete"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d6c74" class="javax.swing.JMenuItem" binding="deleteCustomer">
+                <constraints/>
+                <properties>
+                  <text value="Delete Customer"/>
+                </properties>
+              </component>
+              <component id="83251" class="javax.swing.JMenuItem" binding="deleteStaff">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <selected value="false"/>
+                  <text value="Delete Staff"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5bf8d" class="javax.swing.JMenu" binding="show" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Show"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="58eb8" class="javax.swing.JMenuItem" binding="listCustomerDetails">
+                <constraints/>
+                <properties>
+                  <text value="List Customer Details"/>
+                </properties>
+              </component>
+              <component id="7c59d" class="javax.swing.JMenuItem" binding="listAllCustomer">
+                <constraints/>
+                <properties>
+                  <text value="List All Customer"/>
+                </properties>
+              </component>
+              <component id="59607" class="javax.swing.JMenuItem" binding="customerLastBooking">
+                <constraints/>
+                <properties>
+                  <text value="Customer Last Booking"/>
+                </properties>
+              </component>
+              <component id="599d1" class="javax.swing.JMenuItem" binding="listStaffDetails">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="List Staff Details"/>
+                </properties>
+              </component>
+              <component id="5921f" class="javax.swing.JMenuItem" binding="listAllStaff">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="List All Staff"/>
+                </properties>
+              </component>
+              <component id="e2bb9" class="javax.swing.JMenuItem" binding="listAllStaffSalaries">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="List All Staff Salaries"/>
+                </properties>
+              </component>
+              <component id="2c00f" class="javax.swing.JMenuItem" binding="listOrders">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="List Orders"/>
+                </properties>
+              </component>
+              <component id="53072" class="javax.swing.JMenuItem" binding="listCustomerOrders">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="List Customer Orders"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="45f51">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="4857c">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="116e2">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b74d3" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <vspacer id="f20f7">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="6b6f1"/>
+  </inspectionSuppressions>
+</form>
